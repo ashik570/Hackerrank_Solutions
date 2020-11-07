@@ -9,7 +9,7 @@ function twoPluses($grid) {
     $x=0;
     for($i=1; $i<$rowSize-1; $i++){
         for($j=1; $j<$colSize-1; $j++){
-            if($grid[$i][$j]=='G' && $grid[$i-1][$j]=='G' && $grid[$i+1][$j]=='G' &&                     $grid[$i][$j-1]=='G' && $grid[$i][$j+1]=='G'){
+            if($grid[$i][$j]=='G' && $grid[$i-1][$j]=='G' && $grid[$i+1][$j]=='G' && $grid[$i][$j-1]=='G' && $grid[$i][$j+1]=='G'){
                 $left = $j-1;
                 $top = $i-1;
                 $right = $j+1;
